@@ -9,12 +9,22 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: gold;
+    letter-spacing: 6px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: navy;
+}
+
 .wrapper {
     width: 900px;
     position: relative;
     min-height: 700px;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
