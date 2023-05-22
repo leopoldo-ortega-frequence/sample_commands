@@ -3,6 +3,7 @@ const NUM_PKMN = 802;
 const form = document.querySelector('form');
 const container = document.querySelector('.pokemon');
 
+// function to fecch API
 function apiFetch(id) {
     fetch(`${API_URL}/${id}`, {
         method: 'GET'
@@ -21,8 +22,7 @@ function randomId() {
 }
 
 function appendPokemon(data) {
-    console.log(data)
-    const {name, types, sprites} = data;
+    const {name, sprites} = data;
     const div = document.createElement('div');
     div.classList.add('card');
     div.innerHTML = `
