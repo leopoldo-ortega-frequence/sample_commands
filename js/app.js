@@ -21,6 +21,8 @@ function randomId() {
     return Math.floor((Math.random() * NUM_PKMN) + 1);
 }
 
+console.log('hallllooooooo')
+
 function appendPokemon(data) {
     const {name, sprites} = data;
     const div = document.createElement('div');
