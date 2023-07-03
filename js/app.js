@@ -3,6 +3,8 @@ const NUM_PKMN = 802;
 const form = document.querySelector('form');
 const container = document.querySelector('.pokemon');
 
+// comment here
+
 function apiFetch(id) {
     fetch(`${API_URL}/${id}`, {
         method: 'GET'
@@ -35,5 +37,3 @@ function appendPokemon(data) {
     `;
     container.appendChild(div);
 }
-
-console.log('some change here by Dev A');
