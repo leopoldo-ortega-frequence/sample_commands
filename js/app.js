@@ -20,8 +20,6 @@ function randomId() {
     return Math.floor((Math.random() * NUM_PKMN) + 1);
 }
 
-console.log('hallllooooooo')
-
 function appendPokemon(data) {
     console.log(data)
     const {name, types, sprites} = data;
@@ -37,3 +35,5 @@ function appendPokemon(data) {
     `;
     container.appendChild(div);
 }
+
+console.log('some change here by Dev A');
