@@ -56,4 +56,7 @@ h1 {
 
 .extra-class-here {
     color: pink;
+    border: 1px solid orange;
+    padding: 3rem;
+    border-radius: 10px;
 }
